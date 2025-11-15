@@ -1,0 +1,3 @@
+Create a detailed plan to create a beautiful, fun and engaging game with React + Vite + TypeScript which supports statically hosted file deployments so it can only utilize Browser Storage, e.g. IndexedDB, localStorage. The plan should be detailed enough for a LLM to be able to build the entire implementation from it. Here is the description of the game:
+
+you have to use a sword to block the ball and hit it with your sword to try and kill other ai bots. (there are 4 ai bots not including the player.) to end a round one player or ai bot must remain. after each round if you win then you get 50 coins which can be spent at the shop for new swords and skins.
