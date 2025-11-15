@@ -1,0 +1,59 @@
+// Game configuration constants
+
+export const GAME_CONFIG = {
+  CANVAS_WIDTH: 1200,
+  CANVAS_HEIGHT: 800,
+  FPS: 60,
+  FRAME_TIME: 1000 / 60,
+
+  PLAYER_RADIUS: 25,
+  PLAYER_MAX_HEALTH: 100,
+  PLAYER_SPEED: 5,
+
+  BALL_RADIUS: 15,
+  BALL_INITIAL_SPEED: 4,
+  BALL_MAX_SPEED: 12,
+  BALL_ACCELERATION: 1.1,
+
+  SWORD_BASE_LENGTH: 60,
+  SWORD_BASE_WIDTH: 10,
+  SWORD_COOLDOWN: 300,
+
+  AI_COUNT: 4,
+  AI_UPDATE_RATE: 100,
+
+  DAMAGE_PER_HIT: 25,
+  ROUND_WIN_REWARD: 50,
+
+  ARENA_PADDING: 50,
+};
+
+export const COLORS = {
+  BACKGROUND: '#1a1a2e',
+  ARENA: '#16213e',
+  PLAYER: '#00ff88',
+  AI_BOT: '#ff4757',
+  BALL: '#ffa502',
+  SWORD_DEFAULT: '#ecf0f1',
+  HEALTH_BAR_BG: '#333',
+  HEALTH_BAR_FILL: '#2ecc71',
+  PARTICLE: '#fff',
+};
+
+export const DIFFICULTY_SETTINGS = {
+  easy: {
+    aiReactionTime: 500,
+    aiAccuracy: 0.5,
+    aiDifficulty: 0.3,
+  },
+  medium: {
+    aiReactionTime: 300,
+    aiAccuracy: 0.7,
+    aiDifficulty: 0.6,
+  },
+  hard: {
+    aiReactionTime: 150,
+    aiAccuracy: 0.9,
+    aiDifficulty: 0.9,
+  },
+};
