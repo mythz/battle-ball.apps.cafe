@@ -1,0 +1,73 @@
+.game-over-modal {
+  background: rgba(22, 33, 62, 0.95);
+  padding: 60px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  width: 90%;
+}
+
+.game-over-modal h1 {
+  font-size: 56px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.victory {
+  color: #00ff88;
+  text-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.defeat {
+  color: #ff4757;
+  text-shadow: 0 0 20px rgba(255, 71, 87, 0.5);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.rewards {
+  margin: 30px 0;
+}
+
+.rewards p {
+  color: #95a5a6;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.coins-earned {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f39c12;
+  text-shadow: 0 0 20px rgba(243, 156, 18, 0.5);
+}
+
+.encouragement {
+  font-size: 20px;
+  color: #95a5a6;
+  margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .game-over-modal {
+    padding: 40px 30px;
+  }
+
+  .game-over-modal h1 {
+    font-size: 42px;
+  }
+
+  .coins-earned {
+    font-size: 36px;
+  }
+}
